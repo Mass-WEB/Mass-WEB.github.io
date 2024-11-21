@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Messi web</title>
 </head>
 <body>
@@ -14,8 +15,8 @@
         <nav>
 <ul>
   <li><a href="#">inicio</a></li> 
-  <li><a href="./paginas/productos.html">productos</a></li> 
-  <li><a href="./paginas/nosotros.html">nosotros</a></li>
+  <li><a href="./biografia.html">biografia</a></li> 
+  <li><a href="./paginas/carrera futbolistica.html">carrera futbolistica</a></li>
 </ul>
         </nav>
     </header>
@@ -29,23 +30,44 @@
         </section>
         <section>
 <div class="contendor_limite">
-    <div class="contendor_padre">
-        <div class="card">
-            <img src="./img/messi.jpg" alt="">
-            <h2>Messi en miami</h2>
-            <p>Lionel Messi ha tenido un impacto muy positivo en el Inter Miami desde su llegada. Ha demostrado su calidad en el campo, contribuyendo con goles y asistencias y ayudando al equipo a ganar visibilidad y popularidad. Además, su presencia ha elevado el nivel de la liga y ha atraído a más aficionados. En general, su adaptación ha sido exitosa y ha generado mucha emoción entre los seguidores del fútbol en Estados Unidos</p>
-        </div>
-        <div class="card">
-            <img src="./img/messi.webp" alt="">
-            <h2>Messi en argentina</h2>
-            <p>La etapa de Messi en el Mundial con Argentina fue una travesía de esfuerzo y perseverancia, coronada en 2022 con el título, cumpliendo un sueño largamente esperado.</p>
-        </div>
-        <div class="card">
-            <img src="./img/messi en el barca.jfif" alt="">
-            <h2>Messi en el Barcelona</h2>
-            <p>Lionel Messi hizo historia en el Barcelona, donde jugó de 2000 a 2021. Ganó 10 Ligas, 4 Champions League y 7 Copas del Rey, además de 6 Balones de Oro. Fue clave en logros históricos como el sextete de 2009, consolidándose como el máximo ícono del club y uno de los mejores jugadores de todos los tiempos.
-            </p>
-        </div>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/messi.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Messi en inter de miami</h5>
+                      <p>Lionel Messi ha tenido un impacto muy positivo en el Inter Miami desde su llegada. Ha demostrado su calidad en el campo, contribuyendo con goles y asistencias y ayudando al equipo a ganar visibilidad y popularidad. Además, su presencia ha elevado el nivel de la liga y ha atraído a más aficionados. En general, su adaptación ha sido exitosa y ha generado mucha emoción entre los seguidores del fútbol en Estados Unidos</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/messi en el barca.jfif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Messi en barcelona</h5>
+                      <p>Lionel Messi hizo historia en el Barcelona, donde jugó de 2000 a 2021. Ganó 10 Ligas, 4 Champions League y 7 Copas del Rey, además de 6 Balones de Oro. Fue clave en logros históricos como el sextete de 2009, consolidándose como el máximo ícono del club y uno de los mejores jugadores de todos los tiempos.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/messi.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>messi en Argentina</h5>
+                      <p>La etapa de Messi en el Mundial con Argentina fue una travesía de esfuerzo y perseverancia, coronada en 2022 con el título, cumpliendo un sueño largamente esperado.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
          </div>
     
     
@@ -54,15 +76,18 @@
         <section>
             <div class="parent">
                 <div class="div1"> 
-             <img src="./img/aaaaaaaaaa.jfif" alt="">
+        <img src="img/aaaaaaaaaa.jfif" alt="">
                 </div>
                 <div class="div2"> 
-                    <img src="./img/aaaaaaaaaa.jfif" alt="">
+        <img src="img/messi.avif" alt="">
                 </div>
                 <div class="div3"> 
-                    <img src="./img/aaaaaaaaaa.jfif" alt="">
+        <img src="img/messias.jpg" alt="">
                 </div>
-             </div>
+                <div class="div4"> 
+        <img src="img/messia.jpg" alt="">
+                </div>
+                </div>
         </section>
     </main>
 <footer>
@@ -77,6 +102,6 @@
 
 </footer>
    
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
